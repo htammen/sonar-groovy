@@ -28,7 +28,7 @@ public class GroovyTest {
   @Test
   public void test() {
     Groovy language = new Groovy();
-    assertThat(language.getKey()).isEqualTo("grvy");
+    assertThat(language.getKey()).isEqualTo("groovy");
     assertThat(language.getName()).isEqualTo("Groovy");
     assertThat(language.getFileSuffixes()).isEqualTo(new String[] {"groovy"});
   }
