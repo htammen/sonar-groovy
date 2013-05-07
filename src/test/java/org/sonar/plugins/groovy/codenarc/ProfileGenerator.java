@@ -1,12 +1,29 @@
+/*
+ * Sonar Groovy Plugin
+ * Copyright (C) 2010 SonarSource
+ * dev@sonar.codehaus.org
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 3 of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02
+ */
+
 package org.sonar.plugins.groovy.codenarc;
 
-import org.apache.commons.lang.StringUtils;
 import org.junit.Test;
 
-import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.lang.reflect.Modifier;
 import java.net.URL;
 import java.net.URLClassLoader;
@@ -79,13 +96,14 @@ public class ProfileGenerator {
 
         if (priority != null) {
           String ruleNameShort = rule.substring(rule.lastIndexOf(".")+1);
+          String ruleNameShortWithoutRule = ruleNameShort.substring(0, ruleNameShort.length()-4);
           String ruleName = rule.substring(0, rule.length() - 4);
           String decamel = decamelRule(ruleNameShort);
           String desc = messages.getProperty(ruleNameShort.substring(0, ruleNameShort.length() - 4) + ".description");
 
 
-          rules.append(String.format("<rule key='%s' priority='%s'>\n  <name><![CDATA[%s]]></name>\n  <configKey><![CDATA[%s]]></configKey>\n  <description><![CDATA[%s]]></description>\n</rule>\n",
-                    rule, priority, decamel, ruleNameShort, desc));
+          rules.append(String.format("<rule key='%s' priority='%s'>\n  <name><![CDATA[codenarc: %s]]></name>\n  <configKey><![CDATA[%s]]></configKey>\n  <description><![CDATA[%s]]></description>\n</rule>\n",
+                    rule, priority, decamel, ruleNameShortWithoutRule, desc));
 
           profile.append(String.format("<rule>\n\t<repositoryKey>groovy</repositoryKey>\n\t<key>%s</key>\n\t<priority>%s</priority>\n</rule>\n\n", rule, priority));
         }

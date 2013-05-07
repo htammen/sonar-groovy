@@ -1,1842 +1,1842 @@
 <profile>
-  <name>Sonar way</name>
-  <language>groovy</language>
-  <rules>
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.AssertWithinFinallyBlockRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.AssignmentInConditionalRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.BigDecimalInstantiationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.BitwiseOperatorInConditionalRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.BooleanGetBooleanRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.BrokenNullCheckRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.BrokenOddnessCheckRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.ClassForNameRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.ComparisonOfTwoConstantsRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.ComparisonWithSelfRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.ConstantAssertExpressionRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.ConstantIfExpressionRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.ConstantTernaryExpressionRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.DeadCodeRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.DoubleNegativeRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.DuplicateCaseStatementRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.DuplicateMapKeyRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.DuplicateSetValueRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.EmptyCatchBlockRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.EmptyElseBlockRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.EmptyFinallyBlockRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.EmptyForStatementRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.EmptyIfStatementRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.EmptyInstanceInitializerRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.EmptyMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.EmptyStaticInitializerRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.EmptySwitchStatementRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.EmptySynchronizedStatementRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.EmptyTryBlockRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.EmptyWhileStatementRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.EqualsAndHashCodeRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.EqualsOverloadedRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.ExplicitGarbageCollectionRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.ForLoopShouldBeWhileLoopRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.HardCodedWindowsFileSeparatorRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.HardCodedWindowsRootDirectoryRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.IntegerGetIntegerRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.RandomDoubleCoercedToZeroRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.RemoveAllOnSelfRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.ReturnFromFinallyBlockRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.basic.ThrowExceptionFromFinallyBlockRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.braces.ElseBlockBracesRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.braces.ForStatementBracesRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.braces.IfStatementBracesRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.braces.WhileStatementBracesRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.BusyWaitRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.DoubleCheckedLockingRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.InconsistentPropertyLockingRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.InconsistentPropertySynchronizationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.NestedSynchronizationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.StaticCalendarFieldRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.StaticConnectionRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.StaticDateFormatFieldRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.StaticMatcherFieldRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.StaticSimpleDateFormatFieldRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.SynchronizedMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.SynchronizedOnBoxedPrimitiveRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.SynchronizedOnGetClassRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.SynchronizedOnReentrantLockRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.SynchronizedOnStringRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.SynchronizedOnThisRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.SynchronizedReadObjectMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.SystemRunFinalizersOnExitRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.ThreadGroupRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.ThreadLocalNotStaticFinalRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.ThreadYieldRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.UseOfNotifyMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.VolatileArrayFieldRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.VolatileLongOrDoubleFieldRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.concurrency.WaitOutsideOfWhileLoopRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.convention.ConfusingTernaryRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.convention.CouldBeElvisRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.convention.HashtableIsObsoleteRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.convention.IfStatementCouldBeTernaryRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.convention.InvertedIfElseRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.convention.LongLiteralWithLowerCaseLRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.convention.ParameterReassignmentRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.convention.TernaryCouldBeElvisRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.convention.VectorIsObsoleteRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.design.AbstractClassWithoutAbstractMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.design.AbstractClassWithPublicConstructorRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.design.BooleanMethodReturnsNullRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.design.BuilderMethodWithSideEffectsRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.design.CloneableWithoutCloneRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.design.CloseWithoutCloseableRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.design.CompareToWithoutComparableRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.design.ConstantsOnlyInterfaceRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.design.EmptyMethodInAbstractClassRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.design.FinalClassWithProtectedMemberRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.design.ImplementationAsTypeRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.design.PrivateFieldCouldBeFinalRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.design.PublicInstanceFieldRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.design.ReturnsNullInsteadOfEmptyArrayRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.design.ReturnsNullInsteadOfEmptyCollectionRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.design.SimpleDateFormatMissingLocaleRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.design.StatelessSingletonRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.dry.DuplicateListLiteralRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.dry.DuplicateMapLiteralRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.dry.DuplicateNumberLiteralRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.dry.DuplicateStringLiteralRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.exceptions.CatchArrayIndexOutOfBoundsExceptionRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.exceptions.CatchErrorRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.exceptions.CatchExceptionRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.exceptions.CatchIllegalMonitorStateExceptionRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.exceptions.CatchIndexOutOfBoundsExceptionRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.exceptions.CatchNullPointerExceptionRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.exceptions.CatchRuntimeExceptionRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.exceptions.CatchThrowableRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.exceptions.ConfusingClassNamedExceptionRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.exceptions.ExceptionExtendsErrorRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.exceptions.ExceptionNotThrownRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.exceptions.MissingNewInThrowStatementRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.exceptions.ReturnNullFromCatchBlockRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.exceptions.SwallowThreadDeathRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.exceptions.ThrowErrorRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.exceptions.ThrowExceptionRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.exceptions.ThrowNullPointerExceptionRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.exceptions.ThrowRuntimeExceptionRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.exceptions.ThrowThrowableRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.formatting.BracesForClassRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.formatting.BracesForForLoopRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.formatting.BracesForIfElseRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.formatting.BracesForMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.formatting.BracesForTryCatchFinallyRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.formatting.ClassJavadocRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.formatting.LineLengthRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.formatting.SpaceAfterCatchRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.formatting.SpaceAfterClosingBraceRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.formatting.SpaceAfterCommaRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.formatting.SpaceAfterForRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.formatting.SpaceAfterIfRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.formatting.SpaceAfterOpeningBraceRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.formatting.SpaceAfterSemicolonRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.formatting.SpaceAfterSwitchRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.formatting.SpaceAfterWhileRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.formatting.SpaceAroundOperatorRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.formatting.SpaceBeforeClosingBraceRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.formatting.SpaceBeforeOpeningBraceRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.generic.IllegalClassReferenceRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.generic.IllegalPackageReferenceRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.generic.IllegalRegexRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.generic.RequiredRegexRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.generic.RequiredStringRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.generic.StatelessClassRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.grails.GrailsDomainHasEqualsRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.grails.GrailsDomainHasToStringRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.grails.GrailsDuplicateConstraintRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.grails.GrailsDuplicateMappingRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.grails.GrailsPublicControllerMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.grails.GrailsServletContextReferenceRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.grails.GrailsSessionReferenceRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.grails.GrailsStatelessServiceRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.AssignCollectionSortRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.AssignCollectionUniqueRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ClosureAsLastMethodParameterRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.CollectAllIsDeprecatedRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ConfusingMultipleReturnsRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitArrayListInstantiationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitCallToAndMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitCallToCompareToMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitCallToDivMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitCallToEqualsMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitCallToGetAtMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitCallToLeftShiftMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitCallToMinusMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitCallToModMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitCallToMultiplyMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitCallToOrMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitCallToPlusMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitCallToPowerMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitCallToRightShiftMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitCallToXorMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitHashMapInstantiationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitHashSetInstantiationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitLinkedHashMapInstantiationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitLinkedListInstantiationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitStackInstantiationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.ExplicitTreeSetInstantiationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.GetterMethodCouldBePropertyRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.GroovyLangImmutableRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.GStringAsMapKeyRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.UseCollectManyRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.groovyism.UseCollectNestedRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.imports.DuplicateImportRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.imports.ImportFromSamePackageRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.imports.ImportFromSunPackagesRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.imports.MisorderedStaticImportsRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.imports.UnnecessaryGroovyImportRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.imports.UnusedImportRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.jdbc.DirectConnectionManagementRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.jdbc.JdbcConnectionReferenceRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.jdbc.JdbcResultSetReferenceRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.jdbc.JdbcStatementReferenceRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.ChainedTestRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.CoupledTestCaseRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.JUnitAssertAlwaysFailsRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.JUnitAssertAlwaysSucceedsRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.JUnitFailWithoutMessageRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.JUnitLostTestRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.JUnitPublicNonTestMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.JUnitSetUpCallsSuperRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.JUnitStyleAssertionsRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.JUnitTearDownCallsSuperRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.JUnitTestMethodWithoutAssertRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.JUnitUnnecessarySetUpRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.JUnitUnnecessaryTearDownRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.JUnitUnnecessaryThrowsExceptionRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.SpockIgnoreRestUsedRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.UnnecessaryFailRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.UseAssertEqualsInsteadOfAssertTrueRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.UseAssertFalseInsteadOfNegationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.UseAssertNullInsteadOfAssertEqualsRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.UseAssertSameInsteadOfAssertTrueRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.UseAssertTrueInsteadOfAssertEqualsRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.junit.UseAssertTrueInsteadOfNegationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.logging.LoggerForDifferentClassRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.logging.LoggerWithWrongModifiersRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.logging.LoggingSwallowsStacktraceRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.logging.MultipleLoggersRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.logging.PrintlnRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.logging.PrintStackTraceRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.logging.SystemErrPrintRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.logging.SystemOutPrintRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.naming.AbstractClassNameRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.naming.ClassNameRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.naming.ConfusingMethodNameRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.naming.FactoryMethodNameRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.naming.FieldNameRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.naming.InterfaceNameRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.naming.MethodNameRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.naming.ObjectOverrideMisspelledMethodNameRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.naming.PackageNameRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.naming.ParameterNameRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.naming.PropertyNameRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.naming.VariableNameRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.security.FileCreateTempFileRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.security.InsecureRandomRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.security.JavaIoPackageAccessRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.security.NonFinalPublicFieldRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.security.NonFinalSubclassOfSensitiveInterfaceRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.security.ObjectFinalizeRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.security.PublicFinalizeMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.security.SystemExitRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.security.UnsafeArrayDeclarationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.serialization.SerializableClassMustDefineSerialVersionUIDRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.serialization.SerialPersistentFieldsRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.serialization.SerialVersionUIDRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.size.AbcComplexityRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.size.AbcMetricRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.size.ClassSizeRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.size.CrapMetricRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.size.CyclomaticComplexityRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.size.MethodCountRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.size.MethodSizeRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.size.NestedBlockDepthRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.StubRule</key>
-      <priority>CRITICAL</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.AddEmptyStringRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.ConsecutiveLiteralAppendsRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.ConsecutiveStringConcatenationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryBigDecimalInstantiationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryBigIntegerInstantiationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryBooleanExpressionRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryBooleanInstantiationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryCallForLastElementRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryCallToSubstringRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryCatchBlockRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryCollectCallRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryCollectionCallRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryConstructorRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryDefInFieldDeclarationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryDefInMethodDeclarationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryDefInVariableDeclarationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryDotClassRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryDoubleInstantiationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryElseStatementRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryFinalOnPrivateMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryFloatInstantiationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryGetterRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryGStringRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryIfStatementRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryInstanceOfCheckRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryInstantiationToGetClassRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryIntegerInstantiationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryLongInstantiationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryModOneRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryNullCheckBeforeInstanceOfRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryNullCheckRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryObjectReferencesRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryOverridingMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryPackageReferenceRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryParenthesesForMethodCallWithClosureRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryPublicModifierRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryReturnKeywordRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessarySelfAssignmentRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessarySemicolonRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryStringInstantiationRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessarySubstringRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryTernaryExpressionRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unnecessary.UnnecessaryTransientModifierRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unused.UnusedArrayRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unused.UnusedMethodParameterRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unused.UnusedObjectRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unused.UnusedPrivateFieldRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unused.UnusedPrivateMethodParameterRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unused.UnusedPrivateMethodRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-    <rule>
-      <repositoryKey>groovy</repositoryKey>
-      <key>org.codenarc.rule.unused.UnusedVariableRule</key>
-      <priority>MINOR</priority>
-    </rule>
-
-  </rules>
+<name>Sonar way</name>
+<language>groovy</language>
+<rules>
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.AssertWithinFinallyBlockRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.AssignmentInConditionalRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.BigDecimalInstantiationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.BitwiseOperatorInConditionalRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.BooleanGetBooleanRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.BrokenNullCheckRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.BrokenOddnessCheckRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.ClassForNameRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.ComparisonOfTwoConstantsRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.ComparisonWithSelfRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.ConstantAssertExpressionRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.ConstantIfExpressionRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.ConstantTernaryExpressionRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.DeadCodeRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.DoubleNegativeRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.DuplicateCaseStatementRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.DuplicateMapKeyRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.DuplicateSetValueRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.EmptyCatchBlockRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.EmptyElseBlockRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.EmptyFinallyBlockRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.EmptyForStatementRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.EmptyIfStatementRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.EmptyInstanceInitializerRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.EmptyMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.EmptyStaticInitializerRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.EmptySwitchStatementRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.EmptySynchronizedStatementRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.EmptyTryBlockRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.EmptyWhileStatementRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.EqualsAndHashCodeRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.EqualsOverloadedRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.ExplicitGarbageCollectionRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.ForLoopShouldBeWhileLoopRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.HardCodedWindowsFileSeparatorRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.HardCodedWindowsRootDirectoryRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.IntegerGetIntegerRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.RandomDoubleCoercedToZeroRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.RemoveAllOnSelfRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.ReturnFromFinallyBlockRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.basic.ThrowExceptionFromFinallyBlockRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.braces.ElseBlockBracesRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.braces.ForStatementBracesRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.braces.IfStatementBracesRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.braces.WhileStatementBracesRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.BusyWaitRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.DoubleCheckedLockingRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.InconsistentPropertyLockingRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.InconsistentPropertySynchronizationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.NestedSynchronizationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.StaticCalendarFieldRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.StaticConnectionRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.StaticDateFormatFieldRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.StaticMatcherFieldRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.StaticSimpleDateFormatFieldRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.SynchronizedMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.SynchronizedOnBoxedPrimitiveRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.SynchronizedOnGetClassRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.SynchronizedOnReentrantLockRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.SynchronizedOnStringRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.SynchronizedOnThisRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.SynchronizedReadObjectMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.SystemRunFinalizersOnExitRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.ThreadGroupRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.ThreadLocalNotStaticFinalRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.ThreadYieldRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.UseOfNotifyMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.VolatileArrayFieldRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.VolatileLongOrDoubleFieldRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.concurrency.WaitOutsideOfWhileLoopRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.convention.ConfusingTernaryRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.convention.CouldBeElvisRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.convention.HashtableIsObsoleteRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.convention.IfStatementCouldBeTernaryRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.convention.InvertedIfElseRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.convention.LongLiteralWithLowerCaseLRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.convention.ParameterReassignmentRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.convention.TernaryCouldBeElvisRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.convention.VectorIsObsoleteRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.design.AbstractClassWithoutAbstractMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.design.AbstractClassWithPublicConstructorRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.design.BooleanMethodReturnsNullRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.design.BuilderMethodWithSideEffectsRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.design.CloneableWithoutCloneRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.design.CloseWithoutCloseableRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.design.CompareToWithoutComparableRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.design.ConstantsOnlyInterfaceRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.design.EmptyMethodInAbstractClassRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.design.FinalClassWithProtectedMemberRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.design.ImplementationAsTypeRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.design.PrivateFieldCouldBeFinalRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.design.PublicInstanceFieldRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.design.ReturnsNullInsteadOfEmptyArrayRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.design.ReturnsNullInsteadOfEmptyCollectionRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.design.SimpleDateFormatMissingLocaleRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.design.StatelessSingletonRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.dry.DuplicateListLiteralRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.dry.DuplicateMapLiteralRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.dry.DuplicateNumberLiteralRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.dry.DuplicateStringLiteralRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.exceptions.CatchArrayIndexOutOfBoundsExceptionRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.exceptions.CatchErrorRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.exceptions.CatchExceptionRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.exceptions.CatchIllegalMonitorStateExceptionRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.exceptions.CatchIndexOutOfBoundsExceptionRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.exceptions.CatchNullPointerExceptionRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.exceptions.CatchRuntimeExceptionRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.exceptions.CatchThrowableRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.exceptions.ConfusingClassNamedExceptionRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.exceptions.ExceptionExtendsErrorRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.exceptions.ExceptionNotThrownRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.exceptions.MissingNewInThrowStatementRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.exceptions.ReturnNullFromCatchBlockRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.exceptions.SwallowThreadDeathRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.exceptions.ThrowErrorRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.exceptions.ThrowExceptionRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.exceptions.ThrowNullPointerExceptionRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.exceptions.ThrowRuntimeExceptionRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.exceptions.ThrowThrowableRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.formatting.BracesForClassRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.formatting.BracesForForLoopRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.formatting.BracesForIfElseRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.formatting.BracesForMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.formatting.BracesForTryCatchFinallyRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.formatting.ClassJavadocRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.formatting.LineLengthRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.formatting.SpaceAfterCatchRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.formatting.SpaceAfterClosingBraceRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.formatting.SpaceAfterCommaRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.formatting.SpaceAfterForRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.formatting.SpaceAfterIfRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.formatting.SpaceAfterOpeningBraceRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.formatting.SpaceAfterSemicolonRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.formatting.SpaceAfterSwitchRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.formatting.SpaceAfterWhileRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.formatting.SpaceAroundOperatorRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.formatting.SpaceBeforeClosingBraceRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.formatting.SpaceBeforeOpeningBraceRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.generic.IllegalClassReferenceRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.generic.IllegalPackageReferenceRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.generic.IllegalRegexRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.generic.RequiredRegexRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.generic.RequiredStringRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.generic.StatelessClassRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.grails.GrailsDomainHasEqualsRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.grails.GrailsDomainHasToStringRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.grails.GrailsDuplicateConstraintRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.grails.GrailsDuplicateMappingRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.grails.GrailsPublicControllerMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.grails.GrailsServletContextReferenceRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.grails.GrailsSessionReferenceRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.grails.GrailsStatelessServiceRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.AssignCollectionSortRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.AssignCollectionUniqueRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ClosureAsLastMethodParameterRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.CollectAllIsDeprecatedRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ConfusingMultipleReturnsRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitArrayListInstantiationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitCallToAndMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitCallToCompareToMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitCallToDivMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitCallToEqualsMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitCallToGetAtMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitCallToLeftShiftMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitCallToMinusMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitCallToModMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitCallToMultiplyMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitCallToOrMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitCallToPlusMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitCallToPowerMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitCallToRightShiftMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitCallToXorMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitHashMapInstantiationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitHashSetInstantiationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitLinkedHashMapInstantiationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitLinkedListInstantiationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitStackInstantiationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.ExplicitTreeSetInstantiationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.GetterMethodCouldBePropertyRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.GroovyLangImmutableRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.GStringAsMapKeyRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.UseCollectManyRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.groovyism.UseCollectNestedRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.imports.DuplicateImportRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.imports.ImportFromSamePackageRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.imports.ImportFromSunPackagesRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.imports.MisorderedStaticImportsRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.imports.UnnecessaryGroovyImportRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.imports.UnusedImportRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.jdbc.DirectConnectionManagementRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.jdbc.JdbcConnectionReferenceRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.jdbc.JdbcResultSetReferenceRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.jdbc.JdbcStatementReferenceRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.ChainedTestRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.CoupledTestCaseRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.JUnitAssertAlwaysFailsRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.JUnitAssertAlwaysSucceedsRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.JUnitFailWithoutMessageRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.JUnitLostTestRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.JUnitPublicNonTestMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.JUnitSetUpCallsSuperRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.JUnitStyleAssertionsRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.JUnitTearDownCallsSuperRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.JUnitTestMethodWithoutAssertRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.JUnitUnnecessarySetUpRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.JUnitUnnecessaryTearDownRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.JUnitUnnecessaryThrowsExceptionRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.SpockIgnoreRestUsedRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.UnnecessaryFailRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.UseAssertEqualsInsteadOfAssertTrueRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.UseAssertFalseInsteadOfNegationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.UseAssertNullInsteadOfAssertEqualsRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.UseAssertSameInsteadOfAssertTrueRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.UseAssertTrueInsteadOfAssertEqualsRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.junit.UseAssertTrueInsteadOfNegationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.logging.LoggerForDifferentClassRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.logging.LoggerWithWrongModifiersRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.logging.LoggingSwallowsStacktraceRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.logging.MultipleLoggersRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.logging.PrintlnRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.logging.PrintStackTraceRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.logging.SystemErrPrintRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.logging.SystemOutPrintRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.naming.AbstractClassNameRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.naming.ClassNameRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.naming.ConfusingMethodNameRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.naming.FactoryMethodNameRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.naming.FieldNameRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.naming.InterfaceNameRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.naming.MethodNameRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.naming.ObjectOverrideMisspelledMethodNameRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.naming.PackageNameRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.naming.ParameterNameRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.naming.PropertyNameRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.naming.VariableNameRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.security.FileCreateTempFileRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.security.InsecureRandomRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.security.JavaIoPackageAccessRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.security.NonFinalPublicFieldRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.security.NonFinalSubclassOfSensitiveInterfaceRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.security.ObjectFinalizeRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.security.PublicFinalizeMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.security.SystemExitRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.security.UnsafeArrayDeclarationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.serialization.SerializableClassMustDefineSerialVersionUIDRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.serialization.SerialPersistentFieldsRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.serialization.SerialVersionUIDRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.size.AbcComplexityRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.size.AbcMetricRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.size.ClassSizeRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.size.CrapMetricRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.size.CyclomaticComplexityRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.size.MethodCountRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.size.MethodSizeRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.size.NestedBlockDepthRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.StubRule</key>
+	<priority>CRITICAL</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.AddEmptyStringRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.ConsecutiveLiteralAppendsRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.ConsecutiveStringConcatenationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryBigDecimalInstantiationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryBigIntegerInstantiationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryBooleanExpressionRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryBooleanInstantiationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryCallForLastElementRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryCallToSubstringRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryCatchBlockRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryCollectCallRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryCollectionCallRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryConstructorRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryDefInFieldDeclarationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryDefInMethodDeclarationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryDefInVariableDeclarationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryDotClassRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryDoubleInstantiationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryElseStatementRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryFinalOnPrivateMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryFloatInstantiationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryGetterRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryGStringRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryIfStatementRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryInstanceOfCheckRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryInstantiationToGetClassRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryIntegerInstantiationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryLongInstantiationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryModOneRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryNullCheckBeforeInstanceOfRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryNullCheckRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryObjectReferencesRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryOverridingMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryPackageReferenceRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryParenthesesForMethodCallWithClosureRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryPublicModifierRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryReturnKeywordRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessarySelfAssignmentRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessarySemicolonRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryStringInstantiationRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessarySubstringRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryTernaryExpressionRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unnecessary.UnnecessaryTransientModifierRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unused.UnusedArrayRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unused.UnusedMethodParameterRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unused.UnusedObjectRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unused.UnusedPrivateFieldRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unused.UnusedPrivateMethodParameterRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unused.UnusedPrivateMethodRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+<rule>
+	<repositoryKey>groovy</repositoryKey>
+	<key>org.codenarc.rule.unused.UnusedVariableRule</key>
+	<priority>MINOR</priority>
+</rule>
+
+</rules>
 </profile>
