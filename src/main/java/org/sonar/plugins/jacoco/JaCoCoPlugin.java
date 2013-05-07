@@ -17,18 +17,27 @@
  * License along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02
  */
+package org.sonar.plugins.jacoco;
 
-package org.sonar.plugins.groovy;
+import com.google.common.collect.ImmutableList;
+import org.sonar.api.BatchExtension;
+import org.sonar.api.SonarPlugin;
 
-import org.junit.Test;
+import java.util.List;
 
-import static org.fest.assertions.Assertions.assertThat;
+public class JaCoCoPlugin  {
 
-public class GroovyPluginTest {
-
-  @Test
-  public void testExtensions() {
-    assertThat(new GroovyPlugin().getExtensions()).hasSize(19);
-  }
-
+//  public List<Class<? extends BatchExtension>> getExtensions() {
+//    return ImmutableList.of(
+//        JacocoConfiguration.class,
+//        JaCoCoAgentDownloader.class,
+//        // Maven
+//        JacocoMavenInitializer.class,
+//        JaCoCoMavenPluginHandler.class,
+//        // Unit tests
+//        JaCoCoSensor.class,
+//        // Integration tests
+//        JaCoCoItSensor.class,
+//        JaCoCoOverallSensor.class);
+//  }
 }

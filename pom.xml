@@ -69,6 +69,30 @@
       <version>3.3.2</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>org.codehaus.sonar</groupId>
+      <artifactId>sonar-batch</artifactId>
+      <version>3.5.1</version>
+      <scope>provided</scope>
+    </dependency>
+
+        <!--<dependency>-->
+      <!--<groupId>org.codehaus.sonar</groupId>-->
+      <!--<artifactId>sonar-core</artifactId>-->
+      <!--<version>3.5.1</version>-->
+      <!--<scope>provided</scope>-->
+    <!--</dependency>-->
+    <dependency>
+      <groupId>org.jacoco</groupId>
+      <artifactId>jacoco-maven-plugin</artifactId>
+      <version>0.6.2.201302030002</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jacoco</groupId>
+      <artifactId>org.jacoco.agent</artifactId>
+      <version>0.6.2.201302030002</version>
+    </dependency>
+
 
     <dependency>
       <groupId>org.codenarc</groupId>
