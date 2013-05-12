@@ -31,6 +31,8 @@ For Groovy, it will automatically look for
 
 For Grails, it will automatically look for all of the standard directories (src/groovy, src/java, grails-app/*)
 
+Important! You do not use the weird grvy Sonar language, you use <sonar.language>groovy</sonar.language>
+
 Overriding
 ----------
 
