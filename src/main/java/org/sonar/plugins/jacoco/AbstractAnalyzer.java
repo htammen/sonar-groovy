@@ -27,6 +27,8 @@ import org.jacoco.core.data.ExecutionDataReader;
 import org.jacoco.core.data.ExecutionDataStore;
 import org.jacoco.core.data.SessionInfoStore;
 import org.jacoco.core.runtime.WildcardMatcher;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.sonar.api.batch.SensorContext;
 import org.sonar.api.measures.CoverageMeasuresBuilder;
 import org.sonar.api.measures.Measure;
@@ -35,10 +37,12 @@ import org.sonar.api.resources.Project;
 import org.sonar.api.resources.Resource;
 import org.sonar.api.resources.ResourceUtils;
 import org.sonar.api.utils.SonarException;
+import org.sonar.plugins.groovy.foundation.GroovySourceImporter;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
@@ -46,6 +50,7 @@ import java.util.List;
  * @author Evgeny Mandrikov
  */
 public abstract class AbstractAnalyzer {
+  private static final Logger LOG = LoggerFactory.getLogger(AbstractAnalyzer.class);
 
   public final void analyse(Project project, SensorContext context) {
     final File buildOutputDir = project.getFileSystem().getBuildOutputDir();
@@ -68,6 +73,8 @@ public abstract class AbstractAnalyzer {
     SessionInfoStore sessionInfoStore = new SessionInfoStore();
     ExecutionDataStore executionDataStore = new ExecutionDataStore();
 
+    List<File> realSourceDirs = new ArrayList<File>(GroovySourceImporter.realSourceDirs);
+
     if (jacocoExecutionData == null || !jacocoExecutionData.exists() || !jacocoExecutionData.isFile()) {
       JaCoCoUtils.LOG.info("Project coverage is set to 0% as no JaCoCo execution data has been dumped: {}", jacocoExecutionData);
     } else {
@@ -84,7 +91,7 @@ public abstract class AbstractAnalyzer {
 
     int analyzedResources = 0;
     for (ISourceFileCoverage coverage : coverageBuilder.getSourceFiles()) {
-      Resource resource = getResource(coverage, context, sourceDirs);
+      Resource resource = getResource(coverage, context, realSourceDirs);
       if (resource != null) {
         if (!isExcluded(coverage, excludes)) {
           analyzeFile(resource, coverage, context);
@@ -114,6 +121,8 @@ public abstract class AbstractAnalyzer {
     if (file == null) return null;
 
     org.sonar.api.resources.File resource = org.sonar.api.resources.File.fromIOFile(file, sourceDirs);
+
+    LOG.info("looking for " + resource.toString());
 
     org.sonar.api.resources.File resourceInContext = context.getResource(resource);
     if (null == resourceInContext) {

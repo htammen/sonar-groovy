@@ -54,32 +54,32 @@ public class GroovyPlugin extends SonarPlugin {
 
   public List<?> getExtensions() {
     return ImmutableList.of(
-        GroovyCommonRulesEngineProvider.class,
-        // CodeNarc
-        CodeNarcRuleRepository.class,
-        CodeNarcProfileExporter.class,
-        CodeNarcProfileImporter.class,
-        CodeNarcSensor.class,
-        SonarWayProfile.class,
-        // Foundation
-        Groovy.class,
-        GroovyColorizerFormat.class,
-        GroovySourceImporter.class,
-        GroovyCpdMapping.class,
-        // Main sensor
-        GroovySensor.class,
-        JacocoConfiguration.class,
-        JaCoCoAgentDownloader.class,
-        // Maven
-        JacocoMavenInitializer.class,
-        JaCoCoMavenPluginHandler.class,
-        // Unit tests
-        JaCoCoSensor.class,
-        // Integration tests
-        JaCoCoItSensor.class,
-        JaCoCoOverallSensor.class,
-        // Surefire
-        SurefireSensor.class);
+      // Foundation
+      Groovy.class,
+      GroovyColorizerFormat.class,
+      GroovySourceImporter.class,  // comes up first as it gathers all the source directories and files
+      GroovyCpdMapping.class,
+      GroovyCommonRulesEngineProvider.class,
+      // CodeNarc
+      CodeNarcRuleRepository.class,
+      CodeNarcProfileExporter.class,
+      CodeNarcProfileImporter.class,
+      CodeNarcSensor.class,
+      SonarWayProfile.class,
+      // Main sensor
+      GroovySensor.class,
+      JacocoConfiguration.class,
+      JaCoCoAgentDownloader.class,
+      // Maven
+      JacocoMavenInitializer.class,
+      JaCoCoMavenPluginHandler.class,
+      // Unit tests
+      JaCoCoSensor.class,
+      // Integration tests
+      JaCoCoItSensor.class,
+      JaCoCoOverallSensor.class,
+      // Surefire
+      SurefireSensor.class);
   }
 
 }
